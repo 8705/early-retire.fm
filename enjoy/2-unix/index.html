@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>2. Unix | early retire fm</title>
+<meta charset="utf-8">
+<meta name="description" content="ゼロからwebエンジニアとして職につくまでの方法を解説。">
+<meta name="author" content="team 8705">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://8705.github.io/early-retire.fm/css/style.css">
+<!--&#91;if lt IE 9&#93;>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<!&#91;endif&#93;-->
+</head>
+<body>
+  <div id="app">
+    <h1>Unix</h1>
+    <div id="article">
+		<h2 id="-">説明</h2>
+		<p>
+			普段、MacならFinderを開いてフォルダをクリックして中に入って見たいファイルをダブルクリックして開くと思います。<br>
+			これらは一般人が直感で操作がやりやすいようにマウスを使って操作できるようになっています。<br>
+			一方、プログラマーはそれと併用して、通称「黒い画面」と呼ばれるターミナルでファイル操作などを行うことが多いです。<br>
+			ターミナルを開いて「pwd」で今の位置を確認、「ls」で今いるファイルの一覧を表示し、目当てのディレクトリに「cd」で移動。<br>
+			「mv」、「cp」、「vi」などでファイルを操作します。
+			こういうのがあるとだけ分かっていれば、OKです。
+		</p>
+		<h2 id="-">覚えるべきコマンド</h2>
+		<table>
+			<thead>
+				<tr>
+					<th></th><th>コマンド</th><th>説明</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0</td>
+					<td>pwd</td>
+					<td>「Print Working Directory」の略。今いるディレクトリの絶対パスを表示</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>li</td>
+					<td>「List」の略。今いるディレクトリのファイル、ディレクトリ等を一覧する。</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>cd</td>
+					<td>「Change Directory」の略。ディレクトリを移動する。</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>mv</td>
+					<td>「Move」の略。ファイルやディレクトリを移動する。名前を変更するのにも使う。</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>cp</td>
+					<td>「Copy」の略。ファイルやディレクトリをコピーする。</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>vi</td>
+					<td>略とかじゃない。エディタ。ファイルを開いて中を見たり編集したりできる。</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>ssh</td>
+					<td>「Secure Shell」の略。今いるパソコンとは違うパソコン（サーバー）にログインする時に使う。</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2 id="-">参考サイト</h2>
+    </div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</body>
+</html>
