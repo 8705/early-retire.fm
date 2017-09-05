@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>early retire fm</title>
+	<meta charset="utf-8">
+	<meta name="description" content="ゼロからwebエンジニアとして職につくまでの方法を解説。">
+	<meta name="author" content="team 8705">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="../assets/css/prettify.css" type="text/css">
+	<link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="/">early retire fm</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="list-group">
+					<a href="/attorney/patent"       class="list-group-item">1日目</a>
+					<a href="/attorney/utilitymodel" class="list-group-item">2日目</a>
+					<a href="/attorney/design"       class="list-group-item">3日目</a>
+					<a href="/attorney/trademark"    class="list-group-item">4日目</a>
+					<a href="/attorney/client"       class="list-group-item">5日目</a>
+					<a href="/attorney/staff"        class="list-group-item">6日目</a>
+					<a href="/attorney/applicant"    class="list-group-item">7日目</a>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<h2>1日目</h2>
+				http://miraiyanet.com/lecture/forth/dl/corp_sample01.zip
+
+				↑これを作る。
+
+				まずhtmlの基本から。
+				HTMLとは、ハイパーテキスト・マークアップ・ランゲージ（HyperText Markup Language）の略で、webサイトを作るための言語です。
+				webサイトを作るためには必ずHTMLをマスターする必要があります。
+				ここでは、上記のレイアウトのウェブサイトを作成できるようになりましょう。
+
+				1. HTMLの基礎
+				まず、HTMLを使ってブラウザに「Hello World」と表示してみましょう。
+				これはとても簡単で、適当なテキストエディタを使ってそこに「Hello World」とだけ書いて「index.html」という名前で保存します。
+				このファイルをブラウザで開けばブラウザに「Hello World」と表示されるはずです。
+				このテキストをブラウザで開くには、ダブルクリックするか、もしくは「ファイルから開く」でブラウザを選択する。
+				もしくはブラウザを開いてブラウザの中にドラッグ・アンド・ドロップすれば開くことができると思います。
+
+				2. HTMLのタグを使ってみる。
+				先程はとりあえずエディタに書いたものをブラウザで表示しただけでした。
+				これだと、「で？」っていう感じだと思うんで、もうちょっとHTMLっぽいことやりましょう。
+				さきほど書いた「Hello World」を「<h1>」「</h1>」で囲んで「<h1>Hello World</h1>」
+				にしてみましょう。保存してもう一度ブラウザで表示する、あら不思議文字が大きくなりましたね。
+				HTMLではこうやってタグと呼ばれるもので挟むことでその中に記述されている内容に意味を持たせることができます。
+				他には、リストを作るためのタグ「<ul></ul>」があります。
+				たとえば、<h1>Hello World</h1>の下に
+				<ul>
+					<li>りんご</li>
+					<li>みかん</li>
+					<li>バナナ</li>
+				</ul>
+				と書いて保存し、ブラウザで表示してみましょう。
+				箇条書きされているのが分かります。
+				こうやって、ブラウザ上で表現したいデザインや内容に併せてタグを使い分けてWEBサイトを作っていきます。
+				よく使うタグとしては、
+				h1, ul, li, div, table, tr, th, td, p, span
+				などがあります。覚えようとしなくてもよく使うので自然に覚えれます。
+
+				2. インライン要素、ブロック要素
+
+				HTMLで定義されている要素のうち、<body>～</body>の中で使用される要素の多くは、 ブロックレベル要素（Block-Level Elements）か、インライン要素（Inline Elements）に分類されます。 
+				この分類により、どの要素の内側にどの要素を配置できるかなどのルールが定められています。
+
+				ブロックレベル要素（Block-Level Elements）
+
+				ブロックレベル要素は、見出し・段落・表など、文書を構成する基本となる要素で、一つのブロック（かたまり）として認識されます。 
+				ブラウザでの表示も一つのかたまりとして扱われることが多く、一般的なブラウザでは前後に改行が入ります。
+
+				ブロックレベル要素には、以下のものがあります。
+
+				<address>、<blockquote>、<center>、<div>、<dl>、<fieldset>、<form>、<h1>-<h6>、
+				<hr>、<noframes>、<noscript>、<ol>、<p>、<pre>、<table>、<ul>
+				インライン要素（Inline Elements）
+
+				インライン要素は、主にブロックレベル要素の内容として用いられる要素で、文章の一部として扱われます。 例えば、<p>要素の中の<strong>要素のように、段落のなかの一部を強調するような使われ方をする要素です。 一般的なブラウザでは前後に改行が入らず、文章の一部として表示されます。
+
+				インライン要素には、以下のものがあります。
+
+				<a>、<abbr>、<acronym>、<b>、<basefont>、<bdo>、<big>、<br>、<cite>、<code>、<dfn>、
+				<em>、<font>、<i>、<img>、<input>、<kbd>、<label>、<q>、<s>、<samp>、<select>、
+				<small>、<span>、<strike>、<strong>、<sub>、<sup>、<textarea>、<tt>、<u>、<var>
+				配置ルール
+
+				ブロックレベル要素の中には、他のブロックレベル要素やインライン要素を配置することができます。 一方、インライン要素の中には、文字データや他のインライン要素を配置することができますが、 インライン要素の中にブロックレベル要素を配置することはできません。
+<pre class="prettyprint linenums lang-html">
+&lt;div&gt;aaa&lt;/div&gt;
+</pre>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 copy">
+				&copy; 2017 early retire fm All Rights Reserved
+			</div>
+		</div>
+	</div>
+	<script src="../assets/js/prettify.js"></script>
+	<script>prettyPrint();</script>
+</body>
+</html>
